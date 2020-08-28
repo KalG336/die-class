@@ -1,4 +1,5 @@
-# The second git lab
-## First team member: first name
-## Second team member: second name
-Die class project. It simulates a die and includes a driver program.
+# The second Git lab
+## First team member: Kalan Greiner
+## Second team member: Kalan Greiner
+### Die Project: simulates the rolling of a die with a specified number of
+sides.
