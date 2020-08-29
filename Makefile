@@ -9,7 +9,7 @@ CC = g++
 #Linking all the files
 #Create the executable program "a.out"
 a.out: die-main.o die.o
-$(CC) $(CFLAGS) die.o die-main.o
+  $(CC) $(CFLAGS) die.o die-main.o
 die.o: die.cc die.h
 $(CC) -c $(CFLAGS) die.cc
 die-main.o: die-main.cc die.h
