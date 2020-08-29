@@ -1,5 +1,5 @@
-# Author: <Enter your name>
-# Date: <Enter the date>
+# Author: Kalan Greiner
+# Date: 8/28/2020
 #
 # Makefile for the die project
 # All commands under the rules must start with a tab
@@ -9,7 +9,7 @@ CC = g++
 #Linking all the files
 #Create the executable program "a.out"
 a.out: die-main.o die.o
-  $(CC) $(CFLAGS) die.o die-main.o
+$(CC) $(CFLAGS) die.o die-main.o
 die.o: die.cc die.h
 $(CC) -c $(CFLAGS) die.cc
 die-main.o: die-main.cc die.h
